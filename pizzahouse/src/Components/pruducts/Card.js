@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom'
 import axios from 'axios'
 function Card(props) {
   const [User,setUser] = useState(props.setLoginUser);
-  const [menu,setMenu] = useState(props.name);
+  const [menu] = useState(props.name);
   const add=(e)=>{
     setUser(prevState =>[...User,{Orderitem:{nameOfFood:menu}}])
     User.Orderitem.push({nameOfFood:menu})

@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import ph from "../imgs/Landing/pizza22.jpg";
 import './Contact.css';
 import '../general.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -70,26 +69,26 @@ class Contactus extends Component {
                 <div className="icons">
                   <ul>
                     <li>
-                      <a href="#">
+                      <a href="/">
                         {" "}
                         <FontAwesomeIcon icon={faFacebook} className="icon" />{" "}
                       </a>
                     </li>
                     <li>
                       {" "}
-                      <a href="#">
+                      <a href="/">
                         <FontAwesomeIcon icon={faGooglePlusG}   className="icon"/>{" "}
                       </a>
                     </li>
                     <li>
                       {" "}
-                      <a href="#">
+                      <a href="/">
                         <FontAwesomeIcon icon={faTwitter}  className="icon" />{" "}
                       </a>
                     </li>
                     <li>
                       {" "}
-                      <a href="#">
+                      <a href="/">
                         <FontAwesomeIcon icon={faInstagram}  className="icon"/>{" "}
                       </a>
                     </li>

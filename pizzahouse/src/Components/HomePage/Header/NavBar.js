@@ -5,7 +5,6 @@ import { NavLink } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
 function NavBar({setLoginUser}) {
-  const [user,setUser]=useState(setLoginUser);
 const [rotate,setRotate]=useState(false);
 const rotateSideBar =()=>setRotate(!rotate);
   return (
